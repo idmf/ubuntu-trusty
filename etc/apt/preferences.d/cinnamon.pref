@@ -1,0 +1,66 @@
+# Origin: o=Debian
+# Label:  l=Debian
+# Component: c=main
+# Version: v=7
+# Archive: a=stable
+
+Package: cinnamon* cjs gir1.2-cinnamondesktop* gir1.2-cmenu* gir1.2-muffin* gir1.2-nemo* libcinnamon* libcjs* libmuffin* libnemo* mdm mint-mdm-themes muffin* nemo* python-nemo
+Pin: release a=rafaela, v=17.2, c=main, o=linuxmint, l=linuxmint
+Pin-Priority: 1001
+
+Package: *
+Pin: release a=rafaela, c=main
+Pin-Priority: -10
+
+Package: *
+Pin: release a=rebecca, c=main
+Pin-Priority: -10
+
+Package: *
+Pin: release a=qiana, c=main
+Pin-Priority: -10
+
+# Archive: rebecca
+# Version: 17.1
+# Component: main
+# Origin: linuxmint
+# Label: linuxmint
+# Architecture: amd64
+
+#Pin: release a=qiana, v=17, c=main, o=linuxmint, l=linuxmint
+
+# Release file http://packages.linuxmint.com/dists/qiana/main/binary-amd64/Release
+# Archive: qiana
+# Version: 17
+# Component: main
+# Origin: linuxmint
+# Label: linuxmint
+# Architecture: amd64
+# Description: Linux Mint 17 official repository
+
+
+# Packages from https://launchpad.net/~gwendal-lebihan-dev/+archive/cinnamon-nightly?field.series_filter=trusty
+# cinnamon
+# cinnamon-bluetooth
+# cinnamon-control-center
+# cinnamon-desktop
+# cinnamon-menus
+# cinnamon-screensaver
+# cinnamon-session
+# cinnamon-settings-daemon
+# cinnamon-translations
+# cjs
+# mdm
+# mint-mdm-themes
+# muffin
+# nemo
+# nemo-compare
+# nemo-dropbox
+# nemo-fileroller
+# nemo-media-columns
+# nemo-pastebin
+# nemo-preview
+# nemo-python
+# nemo-rabbitvcs
+# nemo-seahorse
+# nemo-share

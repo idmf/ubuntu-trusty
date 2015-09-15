@@ -1,0 +1,2 @@
+# sudo apt-key --keyring /etc/apt/trusted.gpg.d/mint.gpg adv --keyserver keyserver.ubuntu.com --recv-keys 3EE67F3D0FF405B2
+deb http://packages.linuxmint.com/ rafaela main

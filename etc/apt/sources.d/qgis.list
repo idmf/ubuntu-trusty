@@ -1,0 +1,4 @@
+# From http://www.qgis.org/en/site/forusers/alldownloads.html#ubuntu
+# sudo apt-key --keyring /etc/apt/trusted.gpg.d/qgis.gpg adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FF5FFCAD71472C4
+deb http://qgis.org/debian trusty main
+deb-src http://qgis.org/debian trusty main

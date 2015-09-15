@@ -1,0 +1,3 @@
+# sudo apt-key --keyring /etc/apt/trusted.gpg.d/libreoffice.gpg adv --keyserver keyserver.ubuntu.com --recv-keys 1378B444 
+deb http://ppa.launchpad.net/libreoffice/libreoffice-5-0/ubuntu trusty main
+# deb-src http://ppa.launchpad.net/libreoffice/libreoffice-4-4/ubuntu trusty main
